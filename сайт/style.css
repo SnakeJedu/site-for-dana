@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+
+.container{
+    margin-left: 205px;
+    margin-right: 348px;
+   }
+
+.header-line{
+    display: flex;
+    margin-top: 74px;
+    border-bottom: solid 2px black;
+    }
+
+.header-line img{
+    width: 84px;
+    height: 84px;
+    margin-right: 23px;
+}
+
+h1{
+    font-size: 40px;
+}
+
+.header-line a{
+    border: 1px solid white;
+    border-radius: 2px;
+    top: 110px;
+    position: absolute;
+    font-size: 27px;
+    margin-left: 23px;
+    text-decoration: none;
+    color: black;
+    font-weight: 300;
+    cursor: default;
+}
+
+.header-line a:hover{
+    color: white;
+    transition: 1.2s;
+    background-color: black;
+    border-radius: 20px;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-bottom: 7px;
+    padding-top: 7px;
+}
+
+/* MAIN */
+
+.main-first h1{
+    margin-top: 28px;
+    font-size: 40px;
+}
+
+.main-second p{
+    font-size: 27px;
+    margin-top: 28px;
+    margin-bottom: 28px;
+}
+
+.main-img img{
+    width: 1024px;
+    height: 768px;
+}
+
+.main-third p{
+    margin-top: 28px;
+    font-size: 28px;
+    margin-left: 200px;
+}
+
+/* article */
+
+.main-art{
+    display: flex;
+    margin-top: 27px;
+    margin-bottom: 59px;
+}
+
+.first-art a{
+    display: flex;
+    flex-direction: column;
+    margin-right: 130px;
+    margin-top: 90px;
+    margin-bottom: 65px;
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    cursor: default;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+.first-art a:hover{
+    border: solid 2px aliceblue;
+    border-radius: 20px;
+    background-color:dimgrey;
+    transition: 0.6s;
+    color: aliceblue;
+   
+    
+}
+
+.first-art a:last-of-type{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+  }
+
+  .second a{
+    font-size: 15px;
+  }
+  .second a:hover{
+    border: none;
+    transition: none;
+    background-color: white;
+    color: black;
+  }
+  
+  /* bottom */
+  
+  .sc-second-block{
+    display: flex;
+    margin-bottom: 50px;
+  }
+  
+  .sc-main-first{
+    text-align: center;
+    margin-right: 300px;
+    margin-bottom: 52px;
+  }
+
+  .sc-second-art a{
+    display: flex;
+    flex-direction: column;
+    margin-right: 200px;
+    margin-bottom: 70px;
+    margin-top: 20px;
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    cursor: default;
+   
+    
+    
+  }
+
+.sc-second-art a:hover{
+
+    transition: 1s;
+    background-image: url(/Images/kakashi-mangekyou-sharingan-hlzp7tjzf3nbazth.gif);
+    background-size:200px;
+    border: solid 2px red ;
+    border-radius: 20px;
+    padding-top: 110px;
+    padding-bottom: 0px;
+    text-align: center;
+    }
+
+
+
